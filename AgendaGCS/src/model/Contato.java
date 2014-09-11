@@ -18,9 +18,13 @@ public class Contato {
 		
 	}
 
+	// Gets the name of the contact.
+
 	public String getNome() {
-		return nome;
+		return nome;		
 	}
+
+	// Sets the name of the contact.
 
 	public void setNome(String nome) {
 		this.nome = nome;
@@ -42,9 +46,13 @@ public class Contato {
 		this.telefone_celular = telefone_celular;
 	}
 
+	// Gets the email of the contact.
+
 	public String getEmail() {
 		return email;
 	}
+
+	// Sets the email of the contact.
 
 	public void setEmail(String email) {
 		this.email = email;

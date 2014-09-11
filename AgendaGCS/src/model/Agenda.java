@@ -28,9 +28,15 @@ public class Agenda
 		return;
 	}
 
-	public void removerContato(Contato _contato)
+	public void removerContato(String _nome)
 	{
 		//Verificar
+		for(Contato c : listaContato){
+			if(c.getNome().equals(nome)){
+				this.listaContato.remove(c);
+				return;
+			}
+		}
 		return;
 	}
 
